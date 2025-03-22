@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Feature_background from "../assets/pictures/feature_bg.png";
+import Feature_background from "/src/assets/pictures/feature_bg.png";
 import quality_icon from "../assets/pictures/quality_icon.jpg";
 import productivity_icon from "../assets/pictures/productivy_icon.jpg";
 import weather_icon from "../assets/pictures/weather_icon.png";

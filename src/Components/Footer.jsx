@@ -76,7 +76,6 @@ const Footer = () => {
               ))}
             </div>
           </motion.div>
-
           {/* Navigasi Footer */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
