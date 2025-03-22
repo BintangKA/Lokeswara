@@ -89,10 +89,14 @@ const Footer = () => {
               <p className="text-md font-semibold mb-3">Perusahaan</p>
               <ul className="flex flex-col gap-2 text-gray-600 hover:cursor-pointer">
                 <li className="hover:text-blue-600 transition-all duration-200">
-                  Tentang Kami
+                  <a href="https://www.facebook.com/profile.php?id=100077995201697">
+                    Tentang Kami
+                  </a>
                 </li>
                 <li className="hover:text-blue-600 transition-all duration-200">
-                  Hubungi Kami
+                  <a href="https://www.facebook.com/profile.php?id=100077995201697">
+                    Hubungi Kami
+                  </a>
                 </li>
               </ul>
             </div>
@@ -100,13 +104,25 @@ const Footer = () => {
               <p className="text-md font-semibold mb-3">Media Sosial</p>
               <ul className="flex flex-col gap-2 text-gray-600 hover:cursor-pointer">
                 <li className="hover:text-green-600 transition-all duration-200">
-                  <a href="https://wa.me/6283145541070">WhatsApp</a>
+                  <a href="https://wa.me/6283145541070" target="_blank">
+                    WhatsApp
+                  </a>
                 </li>
                 <li className="hover:text-blue-600 transition-all duration-200">
-                  <a href="https://www.facebook.com">Facebook</a>
+                  <a
+                    href="https://www.tiktok.com/@lokeswaraunggas?is_from_webapp=1&sender_device=pc"
+                    target="_blank"
+                  >
+                    Facebook
+                  </a>
                 </li>
                 <li className="hover:text-pink-600 transition-all duration-200">
-                  <a href="https://www.instagram.com">Instagram</a>
+                  <a
+                    href="https://www.instagram.com/lokeswara_unggas_pertama"
+                    target="_blank"
+                  >
+                    Instagram
+                  </a>
                 </li>
               </ul>
             </div>

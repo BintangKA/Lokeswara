@@ -74,15 +74,6 @@ const PurposeSection = () => {
           </div>
         </motion.div>
 
-        {/* Back to Top Link */}
-        <div className="text-center mt-8">
-          <a
-            href="#top"
-            className="text-green-700 font-semibold hover:underline"
-          >
-            Kembali ke Atas ↑
-          </a>
-        </div>
       </div>
     </section>
   );
