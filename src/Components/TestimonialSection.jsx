@@ -7,21 +7,21 @@ import testi3 from "../assets/pictures/testi 3.png";
 // Data testimoni
 const testimonials = [
   {
-    name: "Andi Susanto",
-    role: "Peternak Ayam Broiler",
+    name: "Joni",
+    role: "Peternak ayam kampung",
     image: testi2,
     review:
-      "DOC ayam import dari sini benar-benar berkualitas! Pertumbuhan lebih cepat dan daya tahan kuat. Panen saya naik tahun ini.",
+      "DOC ayam Kampung dari sini benar-benar berkualitas! Pertumbuhan lebih cepat dan daya tahan kuat. Panen saya naik tahun ini.",
   },
   {
-    name: "Dzaky Fahreza",
-    role: "Pengusaha Ayam Pedaging",
+    name: "Ranu",
+    role: "Pengusaha ayam pedaging dan indukan",
     image: testi1,
     review:
       "Saya sempat ragu, tapi setelah mencoba, hasilnya luar biasa. Ayam lebih sehat dan produktivitas peternakan meningkat pesat.",
   },
   {
-    name: "Budi Hartono",
+    name: "Adi",
     role: "Peternak Pemula",
     image: testi3,
     review:
