@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Feature_background from "../assets/pictures/feature_bg.png";
 import quality_icon from "../assets/pictures/quality_icon.jpg";
 import productivity_icon from "../assets/pictures/productivy_icon.jpg";
 import weather_icon from "../assets/pictures/weather_icon.png";
@@ -24,13 +23,6 @@ const WhySection = () => {
       viewport={{ once: true }}
       className="max-w-7xl mx-auto px-4 py-16 relative"
     >
-      {/* Background Image */}
-      <img
-        src={Feature_background}
-        alt="Background Feature"
-        className="absolute inset-0 w-full h-full object-cover z-0 opacity-20 lg:object-center sm:object-top"
-      />
-
       {/* Title Section */}
       <div className="text-center mb-12 relative z-10">
         <h2 className="text-3xl font-bold text-gray-900 mb-4">
