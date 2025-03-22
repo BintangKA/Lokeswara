@@ -2,17 +2,10 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaWhatsapp, FaTiktok } from "react-icons/fa";
 import { motion } from "framer-motion";
 import FooterLogo from "../assets/pictures/lokeswara_logo.png";
-import footerBackground from "../assets/pictures/Feature_bg.png";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-50 relative z-10">
-      {/* Background Footer */}
-      <img
-        src={footerBackground}
-        alt="Footer Background"
-        className="absolute inset-0 w-full h-full object-cover z-0 opacity-20 lg:object-center sm:object-top"
-      />
 
       {/* Konten Footer */}
       <div className="container mx-auto px-6 sm:px-10 lg:px-15 py-16 relative z-10">
