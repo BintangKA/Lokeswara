@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import hatcheryImg from '../assets/pictures/hatchery.PNG';
+import hatcheryImg from '../assets/pictures/hatchery.png';
 
 const HatcherySection = () => {
   return (
