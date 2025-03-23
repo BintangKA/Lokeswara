@@ -9,7 +9,7 @@ const SupportSection = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="max-w-7xl mx-auto px-4 py-16 md:py-24"
+      className="max-w-7xl mx-auto px-4 py-16"
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Bagian Teks */}

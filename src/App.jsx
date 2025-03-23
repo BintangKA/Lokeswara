@@ -5,6 +5,8 @@ import WhySection from "./Components/WhySection";
 import PrimarcySection from "./Components/PrimarcySection";
 import SupportSection from "./Components/SupportSection ";
 import ServicesSection from "./Components/ServiceSection";
+import HatcherySection from "./Components/HatcherySection";
+import DeliverySection from "./Components/DeliverySection";
 import TestimonialSection from "./Components/TestimonialSection";
 import Footer from "./Components/Footer";
 import Whatsapp from "./Components/Whatsapp";
@@ -26,6 +28,8 @@ function App() {
         <PrimarcySection />
         <SupportSection />
         <ServicesSection />
+        <HatcherySection />
+        <DeliverySection/>
         <TestimonialSection />
         <Footer />
       </div>
