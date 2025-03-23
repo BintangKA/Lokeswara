@@ -31,7 +31,7 @@ const DeliverySection = () => {
       >
         {/* Bagian Kiri */}
         <motion.div className="md:w-3/5" variants={fadeInUp} custom={0}>
-          <h1 className="font-bold  text-3xl md:text-4xl mb-4">
+          <h1 className="font-bold text-3xl md:text-4xl mb-4">
             Packing & Pengiriman Aman
           </h1>
           <p className="text-gray-600">
@@ -40,7 +40,7 @@ const DeliverySection = () => {
           </p>
 
           {/* Ikon dan Deskripsi */}
-          <div className="flex flex-col md:flex-row gap-10 mt-20">
+          <div className="flex flex-col md:flex-row gap-20 mt-20 max-w-lg">
             {/* Card 1 */}
             <motion.div
               variants={fadeInUp}

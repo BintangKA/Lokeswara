@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HatcheryImg from "../assets/pictures/hatchery.PNG";
+import hatcheryImg from '../assets/pictures/hatchery.PNG';
 
 const HatcherySection = () => {
   return (
@@ -15,7 +15,7 @@ const HatcherySection = () => {
           className="md:w-1/2"
         >
           <img
-            src={HatcheryImg}
+            src={hatcheryImg}
             alt="Proses Penetasan DOC"
             className="w-full rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
           />
