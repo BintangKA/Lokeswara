@@ -40,7 +40,7 @@ const DeliverySection = () => {
           </p>
 
           {/* Ikon dan Deskripsi */}
-          <div className="flex flex-col md:flex-row gap-10 md:gap-20 mt-10 md:mt-20 max-w-lg">
+          <div className="flex flex-row gap-5 md:gap-10 mt-10 md:mt-20 max-w-lg">
             {/* Card 1 */}
             <motion.div
               variants={fadeInUp}
