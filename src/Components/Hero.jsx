@@ -20,7 +20,7 @@ const Hero = () => {
           className="flex items-center py-1 gap-2 w-fit px-4 rounded-full bg-yellow-50 hover:bg-yellow-100 transition-colors cursor-pointer group"
         >
           <span className="group-hover:scale-110 transition-transform">🐥</span>
-          <span className="text-sm font-medium">DOC Ayam Berkualitas</span>
+          <span className="text-sm font-medium">DOC Ayam Kampung Berkualitas</span>
         </motion.div>
 
         <motion.h1
